@@ -15,7 +15,7 @@ public class explicitWait {
 		usingSleep.manage().window().maximize();
 		
 		usingSleep.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-		//trt
+		//trt1
 		//declaring explicit wait
 		WebDriverWait myWait=new WebDriverWait(usingSleep, Duration.ofSeconds(10)); 
 		
